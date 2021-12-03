@@ -1,0 +1,144 @@
+@import url(bootstrap-icons.css);
+
+body {
+  background-color: #EBEBEB ;
+}
+
+.contenido{
+    margin-top: 25px;
+}
+
+/* navbar */
+.menu-usuario{
+    background: none !important;
+}
+
+.barra-busqueda{
+    border-radius: 10px;
+}
+
+.busqueda-icono{
+    background: white !important;
+}
+
+.notificaciones{
+    color: blueviolet;
+    font-size: 22px;
+}
+
+.user-name{
+    text-decoration: none;
+    color: black;
+    margin: 0 20px;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu{
+    right: 0;
+}
+.dropdown-item:hover{
+    background: blueviolet;
+    color: white;
+}
+
+/* restaurante info */
+.restaurante{
+    padding: 20px;
+}
+
+
+.pedidos, .envios, .pagos{
+    text-align: start;
+    border-radius: 10px;
+}
+
+.productos span.bi{
+    color: blueviolet;
+}
+
+.products-items{
+    margin-top: 25px;
+    gap: 20px 0px;
+}
+
+.products-items .card{
+    box-shadow: 0px 0px 17px 7px rgba(0,0,0,0.13);
+    border-radius: 10px;
+}
+
+.products-items .card img{
+    width: 80%;
+    height: 100px;
+    object-fit: contain;
+    margin: auto;
+}
+
+.mas-info{
+    background: none;
+    color: black;
+    border: none;
+}
+
+.card-img-overlay a{
+    text-align: end;
+}
+
+.card-img-overlay .btn:hover{
+    background: none;
+    color: black;
+    border: none;
+}
+
+.card-producto{
+    text-align: center;
+}
+
+.rating i{
+    color: blueviolet;
+}
+
+.card.restaurant-img{
+    border-radius: 20px;
+}
+
+.card-img-overlay .mas-fotos{
+    border-radius: 20px;
+    color: white;
+    background: none;
+    border: none;
+}
+
+.rating i{
+    font-size: 20px;
+}
+
+/* menu de seccion de mas info del restaurante */
+.info-restaurante .nav-link.active{
+    background: none;
+    border: none;
+    border-bottom: 2px solid blueviolet;
+}
+
+.tab-pane{
+    padding: 20px;
+}
+
+@media screen and (max-width: 1024px){
+    .card-producto h5{
+        font-size: 13px;
+        font-weight: 700;
+    }
+    
+    .card-producto p{
+        font-size: 13px;
+        font-weight: 400;
+    }
+    .rating i{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 769px){
+    .tab-pane{
+        padding: 0px;
+    }
+}

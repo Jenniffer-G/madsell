@@ -1,0 +1,202 @@
+/******VARIABLES*****/
+/***********ESTILOS GLOBALES********/
+#home,
+#section-login,
+#section-registro {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+* {
+  font-family: "Sora", sans-serif;
+}
+
+.servicios,
+.login {
+  position: relative;
+  display: flex;
+  flex-grow: 1;
+}
+
+.tit-login,
+.p-ol {
+  color: #6815e6;
+}
+
+.tit-login {
+  font-weight: 900;
+  font-size: 2.4rem;
+}
+
+.form-control {
+  background-color: #efefef;
+}
+
+.p-ol:hover {
+  color: #6815e6;
+}
+
+.d-hab {
+  color: #575757;
+}
+
+.btn-redes {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  background: #e8e8e8;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  color: #4217a6 !important;
+  font-weight: 800;
+}
+
+.form-label {
+  height: 23px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+form p {
+  font-size: 14px;
+}
+
+.form-label {
+  font-size: 17px !important;
+}
+
+#mad {
+  color: #0af286;
+}
+
+.p-info {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 60px;
+  width: 368px;
+  height: 362px;
+  left: 31px;
+  top: 16px;
+}
+
+.e-71 {
+  top: 0;
+  left: -12px;
+}
+
+.e-61 {
+  top: 50px;
+  right: -12px;
+}
+
+.e-51 {
+  top: 411px;
+  left: 0px;
+}
+
+.e-5 {
+  top: 313px;
+  left: 206px;
+}
+
+.img-usario {
+  left: 41.33%;
+  right: 1.55%;
+  top: 50.17%;
+  bottom: 11.49%;
+}
+
+.bnt {
+  border-radius: 10px !important;
+}
+
+.bg-rosa {
+  background-color: #fc0a63;
+}
+
+.bg-prupura {
+  background-color: #6815e6;
+}
+
+.bg-verde {
+  background-color: #0af286;
+}
+
+.borde {
+  min-height: 100vh;
+}
+
+.form-check-input[type=checkbox] {
+  background: #e5e5e5;
+}
+
+/********
+1: ESTILOS HOME: SERVICIOS Y PRODUCTOS
+********/
+.void {
+  background-color: white;
+  width: 25%;
+  height: 25%;
+  border-radius: 0.7rem;
+}
+
+/********
+2: ESTILOS DEL LOGIN
+********/
+.bg-d {
+  background: radial-gradient(50% 50% at 50% 50%, #7403a8 0%, #40005e 100%), #530975;
+}
+
+.info {
+  position: absolute;
+  width: 419px;
+  height: 363px;
+  left: 161px;
+  top: 100px;
+  background: linear-gradient(218.67deg, rgba(226, 207, 255, 0.5) 2.79%, rgba(51, 2, 125, 0.5) 91.27%);
+  backdrop-filter: blur(15px);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 20px;
+}
+
+/********
+2: ESTILOS DEL REGISTRO
+********/
+.bg-r {
+  background: radial-gradient(50% 50% at 50% 50%, #00ff88 0%, #029651 100%), #0af286;
+}
+
+.info-reg {
+  width: 419px;
+  height: 363px;
+  left: 161px;
+  top: 100px;
+  background: linear-gradient(218.67deg, rgba(122, 255, 193, 0.5) 2.79%, rgba(0, 151, 81, 0.5) 91.27%);
+  backdrop-filter: blur(15px);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 20px;
+}
+
+/*3: ESTILOS REGISTRO VENDEDOR*/
+/*************************************************/
+/*ESTILOS DE ROTACION DE FORUMULARIOS*/
+.bg-v {
+  background: radial-gradient(50% 50% at 50% 50%, #fc367e 0%, #fc0a63 100%);
+}
+
+.info-regv {
+  width: 419px;
+  height: 363px;
+  left: 161px;
+  top: 100px;
+  background: rgba(188, 188, 188, 0.32);
+  backdrop-filter: blur(15px);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 20px;
+}
+
+/*# sourceMappingURL=styles.css.map */
